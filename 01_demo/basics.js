@@ -1,6 +1,8 @@
+//function scope
 var x = 2;
 console.log(x);
 
+//block scope
 let a = "hello world";
 console.log(a);
 
@@ -19,5 +21,6 @@ let obj = {
 };
 console.log(obj);
 
+//constatnt cannot re-assigne
 const pi = 3.14;
 console.log(pi);
