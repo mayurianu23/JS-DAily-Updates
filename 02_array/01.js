@@ -16,7 +16,12 @@ stud.shift() //removel first element from array at first position
 
 // console.log( stud.slice(1,3));//Returns a copy of a section of an array. For both start and end end will be excluded 
 
-console.log( stud.splice(1,3));
+// console.log( stud.splice(1,3));
+
+
+console.log(stud.reverse());
+
+
 
 
 
