@@ -1,10 +1,13 @@
 //                          *********************Map()*********************
+//Map function return modified array
+// Transforms each element in an array and returns a new array of the same length.
 
 //Expexted OP: [2,4,6,8,10]
 // 1.Doubled of Array
-// let number = [1,2,3,4,5];
-// const Result = number.map(num => num*2)
-// console.log(Result);
+
+let number = [1,2,3,4,5];
+const Result = number.map(num => num*2)
+console.log(Result);
 //Another Way using function
 // const arr = [1,2,3,4,5];
 // function double(x){
@@ -26,7 +29,7 @@
 // 3.Binary of array 
 // const arr = [1,2,3,4,5];
 // function binary(x){
-//     return x.toString(122); //Transformation Logic
+//     return x.toString(2); //Transformation Logic
 // }
 // const output = arr.map(binary)
 // console.log(output);
