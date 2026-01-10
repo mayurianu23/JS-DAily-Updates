@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding JavaScript</title>
+</head>
+<body>
+    <h1 id="codehelp">Welcome to CodeHelp</h1>
+
+    <h2 class="code1">Welcome to CodeHelp</h2>
+    <h2 class="code1">Welcome to CodeHelp1</h2>
+    <h2 class="code1">Welcome to CodeHelp2</h2>
+    <h2 class="code2">Welcome to CodeHelp3</h2>
+    <h2 class="code2">Welcome to CodeHelp4</h2>
+    <h2 class="code2">Welcome to CodeHelp5</h2>
+
+    <h3>Welcome to CodeHelp</h3>
+    
+    
+    <script>
+//Let's Select the elements with class name "code1"
+    let element = document.getElementsByClassName('code1');
+    element[2].style.backgroundColor = "red";
+
+//Let's Select the elements with class name "code2"
+    let element2 = document.getElementsByClassName("code2");
+    element2[2].style.backgroundColor = "yellow";
+
+    </script>
+</body>
+</html>
