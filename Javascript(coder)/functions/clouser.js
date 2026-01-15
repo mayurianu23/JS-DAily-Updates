@@ -11,4 +11,4 @@ function outer() {
 
 let fn = outer();
 fn(); // 1
-fn(); // 2
+fn(); // 2`
