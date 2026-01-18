@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button disabled>clike me</button>
+
+
+   <script>
+    let btn = document.querySelector("button");
+    btn.removeAttribute("disabled");
+   </script>
+</body>
+</html> -->
+
+<!-- add highlight class to evry item in a list -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight{
+            background-color: lightgreen;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>apple1</li>
+        <li>apple2</li>
+        <li>apple3</li>
+        <li>apple4</li>
+        <li>apple5</li>
+        <li>apple6</li>
+        <li>apple7</li>
+        <li>apple8</li>
+        <li>apple9</li>
+        <li>apple10</li>
+    </ul>
+
+
+    <script>
+        let li = document.querySelectorAll("ul li:nth-child(2n)");
+       //  ul.classList.add("hightlight");
+    li.forEach(function(elem){
+            elem.classList.add("highlight");
+        })
+       
+    </script>
+</body>
+</html> -->
+
+
+<!-- //set the fonct size 18px to all p  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem, ipsum dolor.</p>
+    <h1>lorem</h1>
+    <p>Lorem ipsum dolor sit.</p>
+    <h1>hey</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    
+
+    <script>
+        let p = document.querySelectorAll("p");
+       p.forEach(function (e){
+        e.style.fontSize="18px";
+       })
+        
+    </script>
+</body>
+</html>
