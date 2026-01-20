@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+    //this code onlye give pending state becoz we did't return resovle state
+    //  let firstPromise = new Promise((resovle,reject)=>{
+    //    console.log("JavaScript");
+    //  })
+   
+    //    let firstPromise = new Promise((resovle,reject)=>{
+    //    console.log("JavaScript");
+    //    resovle(1000);
+    //  })
+     
+       let firstPromise = new Promise((resovle,reject)=>{
+       console.log("JavaScript");
+       reject(new Error("internal server Error"));
+     });
+
+
+
+  </script>
+</body>
+</html>
+
+
+
+
+

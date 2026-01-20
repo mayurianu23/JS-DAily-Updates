@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>hello</h1>
+
+    <script>
+
+
+    //    let newPromise= new  Promise((resolve, reject) => {
+ 
+    //     setTimeout(function sayMyName(){
+    //         console.log("my name is mayuri");
+    //     },15000);
+    //     resolve(1);
+      
+    // } );
+         let newPromise = new  Promise((resolve, reject) => {
+         let success =  false;
+           if(success){
+            resolve("promise fullfilles")
+           }else{
+            reject("promise rejected");
+           }
+      
+    } );
+
+    newPromise.then((message)=>{
+        console.log("then ka message is "+message); 
+    }).catch((error)=>{
+        console.log("Error:"+error);
+        
+    });
+      
+    </script>
+    
+</body>
+</html>
