@@ -16,6 +16,6 @@ async function getData() {
      //parse json - async
      let data = await res.json();
      console.log(data);
-     
+     store 
 }
 getData();
